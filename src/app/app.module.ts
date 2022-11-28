@@ -8,6 +8,7 @@ import { ViewLivenewsComponent } from './view-livenews/view-livenews.component';
 import { AddNewsComponent } from './add-news/add-news.component';
 import { FormStyle } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
  
 const myRoute:Routes=[
   {
@@ -24,7 +25,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     ViewLivenewsComponent,
-    AddNewsComponent
+    AddNewsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
